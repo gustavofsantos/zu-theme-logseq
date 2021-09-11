@@ -8,7 +8,7 @@ Copy the css content of [theme.css](https://github.com/gustavofsantos/zu-theme-l
 
 ## Contributing
 
-Pull requests are appreciated <3
+Pull requests are welcome ❤️
 
 ## Screenshots
 
