@@ -37,9 +37,9 @@
   --accent: #E47072;
   --accent-darker: #DD4C4F;
   --title-color: #fafafa;
-  --text-color: #eee;
+  --text-color: #d9d9d9;
   --ls-search-icon-color: #777;
-  --modal-background: rgba(10, 10, 10, 0.086);
+  --modal-background: rgba(39, 39, 39, 0.55);
   
   --ls-search-background-color: transparent;
   
@@ -48,6 +48,8 @@
   --ls-tertiary-background-color: rgba(0, 0, 0, 0.2);
   --ls-quaternary-background-color: rgba(0, 0, 0, 0.25);
   
+  --ls-primary-text-color: var(--text-color);
+  
   --ls-title-text-color: var(--title-color);
   --ls-icon-color: var(--text-color);
   
@@ -55,6 +57,7 @@
   --ls-link-text-hover-color: var(--accent-darker);
   --ls-link-ref-text-color: var(--accent);
   --ls-link-ref-text-hover-color: var(--accent-darker);
+  --ls-block-ref-link-text-color: var(--accent);
   
   --ls-page-checkbox-color: var(--accent);
   --ls-page-checkbox-color: var(--accent);
