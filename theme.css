@@ -1,0 +1,145 @@
+:root {
+  --accent: #DD4C4F;
+  --accent-darker: #B13D3F;
+  --accent-secondary: #34D399;
+  --text-on-accent: #fff;
+  --title-color: #444;
+  --modal-background: rgba(255, 255, 255, 0.1);
+  
+  --ls-font-family: 'SF Text', 'iA Writer Duo V Regular', 'Cascadia Code PL', 'Inconsolata', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans;
+}
+
+.white-theme, html[data-theme=light] {
+  --ls-main-content-max-width: 728px; 
+  --ls-search-icon-color: #777;
+  --ls-tag-text-opacity: 0.8;
+  --ls-tag-text-hover-opacity: 0.8;
+  --ls-page-text-size: 1em;
+  --ls-page-title-size: 2em;
+  --ls-title-text-color: var(--title-color);
+  --ls-secondary-background-color: #FBFBFB;
+  --ls-border-color: rgba(0, 0, 0, 0.05);
+  --ls-link-text-color: var(--accent);
+  --ls-link-text-hover-color: var(--accent-darker);
+  --ls-link-ref-text-color: var(--accent);
+  --ls-link-ref-text-hover-color: var(--accent-darker);
+  --ls-page-checkbox-color: var(--accent);
+  --ls-page-checkbox-color: var(--accent);
+  
+  --ls-block-highlight-color: rgba(221, 76, 79, 0.05);
+  
+  --ls-scrollbar-foreground-color: rgba(0, 0, 0, 0.1);
+  --ls-scrollbar-background-color: rgba(0, 0, 0, 0.05);
+  --ls-scrollbar-thumb-hover-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme, html[data-theme=dark] {
+  --accent: #E47072;
+  --accent-darker: #DD4C4F;
+  --title-color: #fafafa;
+  --text-color: #eee;
+  --ls-search-icon-color: #777;
+  --modal-background: rgba(10, 10, 10, 0.086);
+  
+  --ls-search-background-color: transparent;
+  
+  --ls-primary-background-color: #0E0E0E;
+  --ls-secondary-background-color: #171717;
+  --ls-tertiary-background-color: rgba(0, 0, 0, 0.2);
+  --ls-quaternary-background-color: rgba(0, 0, 0, 0.25);
+  
+  --ls-title-text-color: var(--title-color);
+  --ls-icon-color: var(--text-color);
+  
+  --ls-link-text-color: var(--accent);
+  --ls-link-text-hover-color: var(--accent-darker);
+  --ls-link-ref-text-color: var(--accent);
+  --ls-link-ref-text-hover-color: var(--accent-darker);
+  
+  --ls-page-checkbox-color: var(--accent);
+  --ls-page-checkbox-color: var(--accent);
+  
+  --ls-block-bullet-color: rgba(255, 255, 255, 0.25);
+  --ls-block-bullet-border-color: rgba(255, 255, 255, 0.1);
+  
+  --ls-block-highlight-color: rgba(221, 76, 79, 0.05);
+  
+  --ls-border-color: rgba(0, 0, 0, 0.1);
+  --ls-secondary-border-color: rgba(0, 0, 0, 0.05);
+  --ls-guideline-color: rgba(255, 255, 255, 0.1);
+  
+  --ls-table-tr-even-background-color: rgba(255, 255, 255, 0.1);
+  
+  --ls-page-inline-code-bg-color: rgba(0, 0, 0, 0.2);
+  
+  --ls-block-properties-background-color: rgba(0, 0, 0, 0.2);
+  --ls-page-properties-background-color: rgba(0, 0, 0, 0.2);
+  
+  --ls-scrollbar-foreground-color: rgba(255, 255, 255, 0.1);
+  --ls-scrollbar-background-color: rgba(255, 255, 255, 0.05);
+  --ls-scrollbar-thumb-hover-color: rgba(255, 255, 255, 0.1);
+}
+
+input[type=checkbox] {
+  border-radius: 0.2em;  
+}
+
+#search-field {
+  background: var(--modal-background);
+  border: 1px solid var(--ls-border-color);
+}
+
+#repo-name {
+  max-width: 16ch;
+}
+
+mark {
+  background: #FDE68A;
+}
+
+.shadow-lg {
+  box-shadow: none;
+  border-bottom: 1px solid var(--ls-border-color);
+}
+
+.tag {
+  background-color: rgba(221, 76, 79, 0.1);
+  opacity: 1;
+  border-radius: 3em;
+  padding: 0 6px 0 6px;
+}
+
+.ui__button {
+  background-color: var(--accent);
+  color: var(--text-on-accent);
+  border: none;
+}
+
+.ui__button:hover, .menu-link:hover {
+  background-color: rgba(221, 76, 79, 0.1);
+  color: var(--accent);
+  border: none;
+}
+
+.ui__modal-panel,
+.tippy-popper, .tippy-wrapper, .tippy-tooltip,
+.search-ac,
+.dropdown-wrapper,
+.absolute-modal {
+  background: var(--modal-background);
+  backdrop-filter: saturate(180%) blur(80px);
+  border-radius: 0.4em;
+  border: 1px solid var(--ls-border-color);
+}
+
+.menu-link, .ui__modal-overlay div {
+  background: transparent;
+}
+
+.chosen, a.chosen {
+  background: rgba(221, 76, 79, 0.1);
+}
+
+span[role="checkbox"] {
+  background-color: var(--accent-secondary);
+}

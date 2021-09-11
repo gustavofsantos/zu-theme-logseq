@@ -1,0 +1,17 @@
+# Zu
+
+Clean, minimal and modern theme for [[LogSeq]].
+
+## How to install
+
+Copy the css content of `theme.css` file and paste into your `custom.css` file.
+
+## Contributing
+
+Pull requests are appreciated <3
+
+## Screenshots
+
+![Default light](assets/default-light.PNG)
+![Default dark](assets/default-dark.PNG)
+
